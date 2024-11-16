@@ -1,0 +1,7 @@
+x,y,z=map(int,input().split())
+totTimeHaving=z*1440
+totTimeTakes=x*y
+if(totTimeHaving>=totTimeTakes):
+    print("YES")
+else:
+    print("NO")
