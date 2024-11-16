@@ -1,0 +1,9 @@
+vig,char,rish,net=map(int,input().split())
+if(vig+char>=net):
+    print("YES")
+elif(vig+rish>=net):
+    print("YES")
+elif(char+rish>=net):
+    print("YES")
+else:
+    print("NO")
